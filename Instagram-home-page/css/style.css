@@ -19,6 +19,7 @@
 
 .content-wrapper {
   background-color: white;
+  max-height: 610px;
   height: inherit;
   width: 300px;
   overflow-y: auto;
