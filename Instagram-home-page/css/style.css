@@ -19,7 +19,7 @@
 
 .content-wrapper {
   background-color: white;
-  height: 610px;
+  height: inherit;
   width: 300px;
   overflow-y: auto;
   padding: 10px 10px 0 10px;
