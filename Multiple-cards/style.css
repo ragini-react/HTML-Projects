@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.service {
+  margin-top: 340px;
+  background: aqua;
+}
+
+.card-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 2rem;
+  transform: translateY(-40%);
+}
+
+.card {
+  width: 270px;
+  min-height: 365px;
+  background-color: #fff;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 1rem;
+  box-shadow: 0 0 10px grey;
+  border-radius: 5px;
+  position: relative;
+}
+
+.card:nth-child(even) {
+  top: -60px;
+}
+.card:nth-child(odd) {
+  bottom: -60px;
+}
+
+img {
+  height: 90px !important;
+  width: 90px;
+  border-radius: 50%;
+  height: 100px;
+  object-fit: cover;
+  background-color: darkorange;
+}
+
+p {
+  margin: 10px;
+  line-height: 1.5;
+}
+
+h4 {
+  text-decoration: underline;
+}

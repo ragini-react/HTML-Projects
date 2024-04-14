@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.main-container {
+  background-color: rgb(48, 46, 46);
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-wrapper {
+  background-color: white;
+  height: 610px;
+  width: 300px;
+  overflow-y: auto;
+  padding: 10px 10px 0 10px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.first-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+strong {
+  font-size: 15px;
+}
+
+.dp img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.second-div {
+  display: flex;
+}
+
+.connections {
+  display: flex;
+  align-items: center;
+  width: calc(100% - 64px);
+}
+
+.connections h4 {
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+  width: calc(100% / 3);
+}
+
+.third-div p {
+  font-size: 10px;
+  font-weight: bold;
+  padding: 2px;
+}
+.third-div img {
+  width: 14px;
+  height: auto;
+}
+
+.fourth-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fourth-div span {
+  padding: 4px 18px;
+  background: rgb(231, 230, 230);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.fourth-div .person-add {
+  padding: 4px 8px;
+}
+
+.fiveth-div img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.fiveth-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fiveth-div .profile-name {
+  font-size: 10px;
+}
+
+.fiveth-div .profile-name {
+  text-align: center;
+}
+
+.sixth-div .post-icons {
+  display: flex;
+  justify-content: space-around;
+  color: gray;
+  margin-bottom: 2px;
+}
+
+.post-icons span:hover {
+  border-color: grey;
+}
+
+.post-icons span.active {
+  color: black;
+  border-color: grey;
+}
+
+.sixth-div span {
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  /* width: calc(100% / 3); */
+  flex-grow: 1;
+  text-align: center;
+}
+
+.post-1 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.all-post img {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.fixed-icons img {
+  width: 20.5px;
+  height: 20.5px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+.fixed-icons {
+  display: flex;
+  justify-content: space-around;
+  position: sticky;
+  bottom: 0;
+  z-index: 1;
+  background: white;
+}
+
+.fixed-icons span {
+  cursor: pointer;
+  padding-top: 5px;
+}

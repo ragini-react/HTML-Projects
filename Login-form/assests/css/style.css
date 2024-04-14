@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrraper {
+  width: 400px;
+  border-radius: 10px;
+}
+
+form div.btn-facebook button img {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 50px;
+  float: left;
+}
+
+form div.google button img {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 50px;
+  float: left;
+}
+
+form div.or-bg span {
+  position: relative;
+  top: -29px;
+  width: 45px;
+}

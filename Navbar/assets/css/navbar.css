@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 90vh;
+}
+
+body nav {
+  background-color: #ffffffcc;
+}
+
+.custom-bg-gradient {
+  background: #892ebe;
+  background: linear-gradient(145deg, #ec198a 25%, #892ebe 94%);
+}
+
+nav .nav-items li span {
+  display: flex;
+  align-items: center;
+}
+
+nav .nav-items li {
+  position: relative;
+  cursor: pointer;
+}
+
+nav .nav-items li ul {
+  position: absolute;
+  top: 24px;
+  width: auto;
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
+  padding: 4px 10px;
+  min-width: 120px;
+  font-size: 14px;
+  visibility: hidden;
+  overflow: hidden;
+  max-height: 0;
+  transition: max-height 200ms ease-in;
+}
+
+nav .nav-items li ul li:hover {
+  font-weight: 500;
+}
+
+nav .nav-items li:hover {
+  ul {
+    visibility: visible;
+    max-height: 150px;
+  }
+}
+
+nav .buy-now-button {
+  visibility: hidden;
+}
+
+nav:hover {
+  a.buy-now-button {
+    visibility: visible;
+  }
+}
