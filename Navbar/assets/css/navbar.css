@@ -5,7 +5,7 @@
 }
 
 body {
-  height: 90vh;
+  height: calc(100vh - 3rem);
 }
 
 body nav {
@@ -50,15 +50,5 @@ nav .nav-items li:hover {
   ul {
     visibility: visible;
     max-height: 150px;
-  }
-}
-
-nav .buy-now-button {
-  visibility: hidden;
-}
-
-nav:hover {
-  a.buy-now-button {
-    visibility: visible;
   }
 }
