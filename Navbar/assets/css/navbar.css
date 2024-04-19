@@ -6,6 +6,7 @@
 
 body {
   height: calc(100vh - 3rem);
+  overflow: auto;
 }
 
 body nav {
@@ -15,6 +16,7 @@ body nav {
 .custom-bg-gradient {
   background: #892ebe;
   background: linear-gradient(145deg, #ec198a 25%, #892ebe 94%);
+  background-repeat: no-repeat;
 }
 
 nav .nav-items li span {
@@ -50,5 +52,16 @@ nav .nav-items li:hover {
   ul {
     visibility: visible;
     max-height: 150px;
+  }
+}
+
+@media screen and (width <= 768px) {
+  nav.mx-4 {
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    min-width: 300px;
+  }
+  .nav-items {
+    display: none !important;
   }
 }
